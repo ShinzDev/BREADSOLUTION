@@ -10,6 +10,10 @@ function App() {
   const SMALL_PRICE = 180;
   const BIG_PRICE = 240;
 
+  //state for selling price 
+  const SELLING_SMALL_PRICE = 200;
+  const SELLING_BIG_PRICE = 280;
+
   // Calculate totals
   const smallTotal = smallBread * SMALL_PRICE;
   const bigTotal = bigBread * BIG_PRICE;
